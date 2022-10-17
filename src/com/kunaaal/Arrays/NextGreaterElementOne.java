@@ -27,6 +27,7 @@ public class NextGreaterElementOne {
             int index = map.get(nums1[i]);
             ans[i] = -1;
 
+
             for (int j = index; j < nums2.length; j++) {
                 if (nums2[j] > nums1[i])
                     ans[i] = nums2[i];
