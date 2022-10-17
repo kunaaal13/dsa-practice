@@ -1,6 +1,5 @@
 package com.kunaaal.Arrays;
 
-import java.util.HashMap;
 import java.util.HashSet;
 
 public class containsDuplicate {

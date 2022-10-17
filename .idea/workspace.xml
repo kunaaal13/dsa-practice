@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3683eebf-e141-4dc3-9bd1-4f2e2c263864" name="Changes" comment="day 1">
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/Arrays/LongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/Arrays/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/Arrays/PascalTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/Arrays/PivotIndex.java" afterDir="false" />
+    <list default="true" id="3683eebf-e141-4dc3-9bd1-4f2e2c263864" name="Changes" comment="day 2">
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/Arrays/EarliestMonth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/Arrays/FindDisappearedNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/Arrays/MaxNumberOfBalloons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/Arrays/NextGreaterElementOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/Arrays/WordPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/Arrays/isomorphicStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/Arrays/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/Arrays/MajorityElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/Arrays/containsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/Arrays/containsDuplicate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +29,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="url" value="https://github.com/kunaaal13/dsa-practice.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,7 +61,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -68,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665244347975</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="day 2">
+      <created>1665303851690</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665303851690</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,7 +116,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 1" />
+    <MESSAGE value="day 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -112,6 +139,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/kunaaal/Arrays/NextGreaterElementOne.java</url>
+          <line>16</line>
+          <properties class="com.kunaaal.Arrays.NextGreaterElementOne" method="nextGreaterElement">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
