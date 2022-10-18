@@ -1,4 +1,4 @@
-package com.kunaaal.Arrays;
+package com.kunaaal.ArraysStrings;
 
 import java.util.Scanner;
 

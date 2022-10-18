@@ -1,6 +1,4 @@
-package com.kunaaal.Arrays;
-
-import java.util.HashMap;
+package com.kunaaal.ArraysStrings;
 
 public class MaxNumberOfBalloons {
     public static void main(String[] args) {

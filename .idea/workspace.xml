@@ -5,8 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3683eebf-e141-4dc3-9bd1-4f2e2c263864" name="Changes" comment="day 3">
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/BuySellStock1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/CanPlaceFlowers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/EncodeDecodeTinyURL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/RemoveElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/UniqueEmailAddresses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/encodeDecodeStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/Arrays/NextGreaterElementOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/Arrays/NextGreaterElementOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/Arrays/EarliestMonth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/EarliestMonth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/Arrays/FindDisappearedNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/FindDisappearedNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/Arrays/IsSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/IsSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/Arrays/LengthLastWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/LengthLastWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/Arrays/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/Arrays/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/MajorityElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/Arrays/MaxNumberOfBalloons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/MaxNumberOfBalloons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/Arrays/NextGreaterElementOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/NextGreaterElementOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/Arrays/PascalTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/PascalTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/Arrays/PivotIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/PivotIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/Arrays/WordPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/WordPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/Arrays/containsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/containsDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/Arrays/isomorphicStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/isomorphicStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/Arrays/replaceElementGreatestRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/replaceElementGreatestRight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/Arrays/validAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/validAnagrams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666015857959</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="day 3">
+      <created>1666016234980</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666016234980</updated>
+    </task>
+    <task id="LOCAL-00006" summary="day 3">
+      <created>1666016324880</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666016324880</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,24 +151,25 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day 1" />
     <MESSAGE value="day 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 2" />
+    <MESSAGE value="day 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/kunaaal/Arrays/replaceElementGreatestRight.java</url>
+          <url>file://$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/replaceElementGreatestRight.java</url>
           <line>22</line>
-          <properties class="com.kunaaal.Arrays.replaceElementGreatestRight" method="replaceElements">
+          <properties class="com.kunaaal.ArraysStrings.replaceElementGreatestRight" method="replaceElements">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/kunaaal/Arrays/LongestCommonPrefix.java</url>
+          <url>file://$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/LongestCommonPrefix.java</url>
           <line>9</line>
-          <properties class="com.kunaaal.Arrays.LongestCommonPrefix" method="longestCommonPrefix">
+          <properties class="com.kunaaal.ArraysStrings.LongestCommonPrefix" method="longestCommonPrefix">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

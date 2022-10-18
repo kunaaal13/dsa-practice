@@ -1,4 +1,4 @@
-package com.kunaaal.Arrays;
+package com.kunaaal.ArraysStrings;
 
 public class IsSubsequence {
     public static void main(String[] args) {
