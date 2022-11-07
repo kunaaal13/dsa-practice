@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3683eebf-e141-4dc3-9bd1-4f2e2c263864" name="Changes" comment="day 4">
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BinarySearch/ArrangingCoins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BinarySearch/GuessNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BinarySearch/SearchInsertPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BinarySearch/SquaresOfSorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/TwoPointers/MergeSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/TwoPointers/MinimumDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/TwoPointers/MoveZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/TwoPointers/RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/TwoPointers/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/TwoPointers/ValidPalindromeTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3683eebf-e141-4dc3-9bd1-4f2e2c263864" name="Changes" comment="day 5">
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/LongestSubstrWoRepeating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BinarySearch/SearchInRotatedSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BinarySearch/SearchTwoDMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/LinkedList/LL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/StacksQueues/ValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/TwoPointers/ThreeSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666102930567</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="day 5">
+      <created>1667289811567</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667289811567</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,7 +153,8 @@
     <MESSAGE value="day 2" />
     <MESSAGE value="day 3" />
     <MESSAGE value="day 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 4" />
+    <MESSAGE value="day 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -181,6 +185,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/TwoSum.java</url>
+          <line>14</line>
+          <properties class="com.kunaaal.ArraysStrings.TwoSum" method="twoSum">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
