@@ -225,4 +225,64 @@ public class Tree {
 
         return ans;
     }
+
+
+    // Sum of Root To Leaf Binary Numbers
+    public int sumRootToLeaf(TreeNode root) {
+        int ans = 0;
+        support(root, ans, "");
+        return ans;
+    }
+
+//    private void support(TreeNode root, int sum, String str) {
+//        if (root == null)
+//            return;
+//
+//        str += root.val;
+//
+//        if (root.left == null && root.right == null){
+//            sum += Integer.parseInt(str, 2);
+//            str = "";
+//            return;
+//        }
+//
+//
+//        support(root.left, sum, str);
+//        support(root.right, sum, str);
+//
+//        return;
+//    }
+
+
+    // target path sum
+    public boolean hasPathSum(TreeNode root, int targetSum) {
+        if (root == null)
+            return false;
+
+        if (root.left == null && root.right == null && root.val == targetSum) // Leaf check
+            return true;
+
+        return hasPathSum(root.left, targetSum - root.val) || hasPathSum(root.right, targetSum - root.val);
+    }
+
+    // Second Minimum Node In a Binary Tree
+    public int findSecondMinimumValue(TreeNode root) {
+        int second = Integer.MAX_VALUE;
+        support(root, Integer.MAX_VALUE, second);
+
+        return second;
+    }
+
+    private void support(TreeNode root, int minValue, int second) {
+        if (root == null)
+            return;
+
+        if (root.val < minValue){
+            second = minValue;
+            minValue = root.val;
+        }
+
+        support(root.left, minValue, second);
+        support(root.right, minValue, second);
+    }
 }
