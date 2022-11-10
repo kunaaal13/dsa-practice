@@ -4,9 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3683eebf-e141-4dc3-9bd1-4f2e2c263864" name="Changes" comment="day 6">
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/Trees/Tree.java" afterDir="false" />
+    <list default="true" id="3683eebf-e141-4dc3-9bd1-4f2e2c263864" name="Changes" comment="day 8">
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/FirstUniqueCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/Math/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/Math/UglyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionPep/AllIndicesOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionPep/DisplayArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionPep/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionPep/FirstIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionPep/GetKpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionPep/GetSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionPep/LastIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionPep/MaxOfAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionPep/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionPep/PrintDecreasing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/LinkedList/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/LinkedList/LL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/Trees/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/Trees/Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667846438454</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="day 7">
+      <created>1667911364023</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667911364023</updated>
+    </task>
+    <task id="LOCAL-00011" summary="day 8">
+      <created>1668067117380</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668067117380</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,7 +184,9 @@
     <MESSAGE value="day 4" />
     <MESSAGE value="day 5" />
     <MESSAGE value="day 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 6" />
+    <MESSAGE value="day 7" />
+    <MESSAGE value="day 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
