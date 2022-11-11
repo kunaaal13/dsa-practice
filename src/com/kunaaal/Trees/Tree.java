@@ -285,4 +285,166 @@ public class Tree {
         support(root.left, minValue, second);
         support(root.right, minValue, second);
     }
+
+    public int sumOfLeftLeaves(TreeNode root) {
+        if(root == null)
+            return 0;
+
+        int left = 0;
+
+        if(root.left != null && root.left.left == null && root.left.right == null)
+            left = root.left.val;
+
+        return left + sumOfLeftLeaves(root.left) + sumOfLeftLeaves(root.right);
+    }
+
+    public List<Double> averageOfLevels(TreeNode root) {
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        List<Double> ans = new ArrayList<>();
+
+        if (root == null)
+            return ans;
+
+        queue.offer(root);
+
+        while (!queue.isEmpty()){
+            double levelSize = queue.size();
+            double sum = 0;
+
+            List<Integer> list = new ArrayList<>();
+
+            for (int i = 0; i < levelSize; i++) {
+                if (queue.peek().left != null)
+                    queue.offer(queue.peek().left);
+
+                if (queue.peek().right != null)
+                    queue.offer(queue.peek().right);
+
+                sum += queue.poll().val;
+            }
+            double avg = sum / levelSize;
+            ans.add(avg);
+        }
+
+        return ans;
+    }
+
+    public boolean leafSimilar(TreeNode root1, TreeNode root2) {
+        ArrayList<Integer> arr1 = new ArrayList<>();
+        ArrayList<Integer> arr2 = new ArrayList<>();
+
+        getLeaf(root1, arr1);
+        getLeaf(root2, arr2);
+
+        if (arr1.size() != arr2.size())
+            return false;
+
+        for (int i = 0; i < arr2.size(); i++) {
+            if (arr1.get(i) != arr2.get(i))
+                return false;
+        }
+
+        return true;
+    }
+
+    private void getLeaf(TreeNode root, ArrayList<Integer> arr) {
+        if (root == null)
+            return;
+
+        // check if leaf
+        if (root.left == null && root.right == null)
+            arr.add(root.val);
+
+        getLeaf(root.left, arr);
+        getLeaf(root.right, arr);
+    }
+
+    public int goodNodes(TreeNode root) {
+        int good = 0;
+        cal(root, good, Integer.MIN_VALUE);
+        return good;
+    }
+
+    private void cal(TreeNode root, int good, int max) {
+        if (root == null)
+            return;
+
+        if (root.val >= max)
+            good++;
+
+        max = Math.max(max, root.val);
+
+        cal(root.left, good, max);
+        cal(root.right, good, max);
+    }
+
+    public List<String> binaryTreePaths(TreeNode root) {
+        ArrayList<String> arr = new ArrayList<>();
+        getPaths(root, arr, "");
+        return arr;
+    }
+
+    private void getPaths(TreeNode root, ArrayList<String> arr, String str) {
+        if (root.left == null && root.right == null){
+            arr.add(str + root.val);
+        }
+
+        if (root.left != null)
+            getPaths(root.left, arr, str + root.val + "->");
+
+        if (root.right != null)
+            getPaths(root.right, arr, str + root.val + "->");
+    }
+
+    StringBuilder str;
+    public String tree2str(TreeNode root) {
+        str = new StringBuilder();
+        getStr(root);
+        return str.toString();
+    }
+
+    private void getStr(TreeNode root) {
+        if (root == null)
+            return;
+
+        if(root.left == null && root.right==null){
+            str.append(root.val);
+            return;
+        }
+
+        str.append(root.val);
+        str.append("(");
+        getStr(root.left);
+        str.append(")");
+
+        if(root.right!=null){
+            str.append('(');
+            getStr(root.right);
+            str.append(')');
+        }
+
+    }
+
+    public boolean isSymmetric(TreeNode root) {
+        return root == null || isMirror(root.left, root.right);
+    }
+
+    private boolean isMirror(TreeNode node1, TreeNode node2) {
+        if (node1 == null && node2 == null)
+            return true;
+
+        if (node1 == null || node2 == null)
+            return false;
+
+        if (node1.val != node2.val)
+            return false;
+
+        // iska left uske right ke sath equal aur iska right uske left
+        return isMirror(node1.left, node2.right) && isMirror(node1.right, node2.left);
+    }
+
+
+    public int maxLevelSum(TreeNode root) {
+
+    }
 }
