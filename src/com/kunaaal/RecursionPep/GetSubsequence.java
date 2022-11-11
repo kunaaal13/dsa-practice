@@ -16,7 +16,7 @@ public class GetSubsequence {
             ans.add("");
             return ans;
         }
-
+        // hjhjj
 
         char ch = str.charAt(0);
         String rest = str.substring(1);
