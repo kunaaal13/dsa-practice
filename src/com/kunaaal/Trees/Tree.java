@@ -444,4 +444,24 @@ public class Tree {
     }
 
 
+    //    Sum Root to Leaf Numbers
+    public int sumNumbers(TreeNode root) {
+         return helper(root, 0);
+    }
+
+    private int helper(TreeNode root, int num) {
+        if (root == null)
+            return 0;
+
+        if (root.left == null && root.right == null){
+            num = num * 10 + root.val;
+            return num;
+        }
+
+        num = num * 10 + root.val;
+
+        return helper(root.left, num) + helper(root.right, num);
+    }
+
+
 }
