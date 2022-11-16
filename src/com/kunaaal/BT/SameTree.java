@@ -4,7 +4,7 @@ import static com.kunaaal.BT.BinaryTree.buildTreeArr;
 
 public class SameTree {
     public static void main(String[] args) {
-//        hahaha
+//        hahaha no
         int nodes [] = {1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1};
         TreeNode root1 = buildTreeArr(nodes);
         TreeNode root2 = buildTreeArr(nodes);

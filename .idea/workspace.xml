@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3683eebf-e141-4dc3-9bd1-4f2e2c263864" name="Changes" comment="day 12" />
+    <list default="true" id="3683eebf-e141-4dc3-9bd1-4f2e2c263864" name="Changes" comment="day 13" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668416574915</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="day 13">
+      <created>1668520369465</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1668520369465</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,7 +229,8 @@
     <MESSAGE value="day 10" />
     <MESSAGE value="day 11" />
     <MESSAGE value="day 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 12" />
+    <MESSAGE value="day 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
