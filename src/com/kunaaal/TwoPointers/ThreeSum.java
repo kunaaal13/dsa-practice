@@ -61,4 +61,29 @@ public class ThreeSum {
     }
 
 
+    public List<List<Integer>> threeSumTwo(int[] nums) {
+        List<List<Integer>> ans = new ArrayList<>();
+        Arrays.sort(nums);
+
+        for (int i = 0; i < nums.length - 2; i++) {
+            int sum = 0 - nums[i];
+
+            for (int j = i+1; j < nums.length - 1; j++) {
+                int search = binarySearch(nums, j + 1, sum - nums[j]);
+                if(search < 0)
+                    continue;
+
+                List<Integer> res = Arrays.asList(nums[i], nums[j], nums[search]);
+
+                if (!ans.contains(res))
+                    ans.add(res);
+
+            }
+
+        }
+
+        return ans;
+    }
+
+
 }
