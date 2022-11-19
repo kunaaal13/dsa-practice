@@ -14,6 +14,8 @@ public class BaseballGame {
         Stack<Integer> stack = new Stack<>();
         int temp = 0;
 
+        // comment
+
         for (int i = 0; i < operations.length; i++) {
             String str = operations[i];
 
