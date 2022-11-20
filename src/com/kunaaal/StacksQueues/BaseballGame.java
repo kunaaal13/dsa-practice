@@ -8,7 +8,7 @@ public class BaseballGame {
         System.out.println(calPoints(arr));
     }
 
-    // hhh
+    // hhh no no
     private static int calPoints(String[] operations) {
         int sum = 0;
         Stack<Integer> stack = new Stack<>();
