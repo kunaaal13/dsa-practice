@@ -4,12 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3683eebf-e141-4dc3-9bd1-4f2e2c263864" name="Changes" comment="day 15">
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/Graphs/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/TwoPointers/ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/TwoPointers/TrappingRainWater.java" afterDir="false" />
+    <list default="true" id="3683eebf-e141-4dc3-9bd1-4f2e2c263864" name="Changes" comment="day 16">
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/BalancedBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/Diameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/FlattenBinaryTreeToLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/LevelOrderTraversals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/MaximumDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/MaximumPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/Traversals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/ZigzagLevelOrderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/LinkedList/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/LinkedList/LL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/BT/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/BT/BottomLeftTreeValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/BT/PopulatingNextRightPointersEachNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/BT/RightSideView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/BT/SameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/SameTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/BT/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/BinaryTree/BinaryTreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/BinaryTree/BinaryTreeUse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/BinaryTree/BinaryTrees.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/Trees/Tree.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +69,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/kunalyadav/IdeaProjects/dsa-practice&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -244,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670593957232</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="day 16">
+      <created>1670681977486</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1670681977486</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,7 +304,8 @@
     <MESSAGE value="day 13" />
     <MESSAGE value="day 14" />
     <MESSAGE value="day 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 15" />
+    <MESSAGE value="day 16" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 16" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -329,15 +354,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/kunaaal/BT/RightSideView.java</url>
-          <line>17</line>
-          <properties class="com.kunaaal.BT.RightSideView" method="rightSideViewRec">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/ZigzagConversion.java</url>
