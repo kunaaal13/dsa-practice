@@ -4,28 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3683eebf-e141-4dc3-9bd1-4f2e2c263864" name="Changes" comment="day 16">
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/BalancedBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/Diameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/FlattenBinaryTreeToLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/LevelOrderTraversals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/MaximumDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/MaximumPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/Traversals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/ZigzagLevelOrderTraversal.java" afterDir="false" />
+    <list default="true" id="3683eebf-e141-4dc3-9bd1-4f2e2c263864" name="Changes" comment="day 17">
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/IndexOfFirstOcuurenceString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/IntersectionOfTwoArraysII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/SetMatrixZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/StringtoInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BST/ConvertBSTToGreaterTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BST/KthSmallestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BST/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BST/SortedArrayToBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BST/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BST/ValidateBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/BinaryTreePaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/BottomLeftTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/ConstructFromPreInorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/CountGoodNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/InvertTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/LeafSimilarTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/LevelOrderTraversal2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/LowestCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/MergeTwoBinaryTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/MinimumDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/PathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/RightView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/RootEqualsSumOfChildren.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/SubtreeOfAnotherTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/SumOfRootToLeafBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/SumRootToLeafNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/SymmetricTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/BitManipulation/SingleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/LinkedList/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/LinkedList/OddEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/LinkedList/SwapNodesInPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/Math/ReverseInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionAndBacktracking/CountandSay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionAndBacktracking/Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionAndBacktracking/SubsequenceCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionAndBacktracking/Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionBasics/DisplayArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionBasics/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionBasics/IndexOfOccurencesArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionBasics/MaxOfArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionBasics/Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionBasics/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionBasics/PrintDecreasingIncreasing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionBasics/Subsequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionBasics/Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/StacksQueues/AsteroidCollision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/StacksQueues/EvaluateReversePolishNotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/BT/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/BT/BottomLeftTreeValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/BT/PopulatingNextRightPointersEachNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/BT/RightSideView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/BT/SameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/SameTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/BT/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/BT/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/BinaryTree/BinaryTreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/BinaryTree/BinaryTreeUse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/BinaryTree/BinaryTrees.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/Trees/Tree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/LinkedList/LL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/RecursionPep/AllIndicesOfArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/RecursionPep/DisplayArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/RecursionPep/Factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/RecursionPep/FirstIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/RecursionPep/GetKpc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/RecursionPep/GetSubsequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/RecursionPep/LastIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/RecursionPep/MaxOfAnArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/RecursionPep/Power.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/RecursionPep/PrintDecreasing.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670681977486</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="day 17">
+      <created>1670941216251</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1670941216251</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,7 +350,8 @@
     <MESSAGE value="day 14" />
     <MESSAGE value="day 15" />
     <MESSAGE value="day 16" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 16" />
+    <MESSAGE value="day 17" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -373,6 +419,64 @@
           </properties>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/kunaaal/BT/MergeTwoBinaryTrees.java</url>
+          <line>14</line>
+          <properties class="com.kunaaal.BT.MergeTwoBinaryTrees" method="mergeTrees">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/kunaaal/BT/ConstructFromPreInorderTraversal.java</url>
+          <line>13</line>
+          <properties class="com.kunaaal.BT.ConstructFromPreInorderTraversal" method="buildTree">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/kunaaal/RecursionBasics/Factorial.java</url>
+          <line>8</line>
+          <properties class="com.kunaaal.RecursionBasics.Factorial" method="factorial">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/kunaaal/RecursionBasics/IndexOfOccurencesArr.java</url>
+          <line>18</line>
+          <properties class="com.kunaaal.RecursionBasics.IndexOfOccurencesArr" method="getAllIndices">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/kunaaal/RecursionBasics/Permutations.java</url>
+          <line>8</line>
+          <properties class="com.kunaaal.RecursionBasics.Permutations" method="printPermutations">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/kunaaal/ArraysStrings/IndexOfFirstOcuurenceString.java</url>
+          <line>11</line>
+          <properties class="com.kunaaal.ArraysStrings.IndexOfFirstOcuurenceString" method="strStr">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="18" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
