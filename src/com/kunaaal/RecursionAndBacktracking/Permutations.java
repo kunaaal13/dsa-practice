@@ -11,17 +11,31 @@ public class Permutations {
     }
 
     private static List<List<Integer>> permute(int[] nums) {
-        List<List<Integer>> ans = new ArrayList<>();
-        getPermute(nums,ans,0,new ArrayList<>());
-        return ans;
+        List<List<Integer>> list = new ArrayList<>();
+        backtrack(list, new ArrayList<>(), nums);
+        return list;
     }
 
-    private static void getPermute(int[] nums, List<List<Integer>> ans, int i, ArrayList<Integer> arr) {
-        if (i == nums.length){
-            ans.add(arr);
+    private static void backtrack(List<List<Integer>> list, ArrayList<Integer> arr, int[] nums) {
+        if (arr.size() == nums.length){
+            list.add(new ArrayList<>(arr));
             return;
         }
 
 
+        for (int i = 0; i < nums.length; i++) {
+            // agar pehle hi hai to skip kardo
+            if (arr.contains(nums[i]))
+                continue;
+
+            // arr me add kardo
+            arr.add(nums[i]);
+
+            backtrack(list, arr, nums);
+
+            // arr se nikaldo jo add kiya
+            arr.remove(arr.size()-1);
+        }
     }
+
 }
