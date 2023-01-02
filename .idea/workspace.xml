@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3683eebf-e141-4dc3-9bd1-4f2e2c263864" name="Changes" comment="day 18">
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionAndBacktracking/CombinationSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionAndBacktracking/CombinationSumII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionAndBacktracking/JumpGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionAndBacktracking/KeyPad.java" afterDir="false" />
+    <list default="true" id="3683eebf-e141-4dc3-9bd1-4f2e2c263864" name="Changes" comment="day 19">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kunaaal/RecursionAndBacktracking/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunaaal/RecursionAndBacktracking/Permutations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672239209350</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="day 19">
+      <created>1672322750445</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1672322750445</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,7 +308,8 @@
     <MESSAGE value="day 16" />
     <MESSAGE value="day 17" />
     <MESSAGE value="day 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 18" />
+    <MESSAGE value="day 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 19" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
