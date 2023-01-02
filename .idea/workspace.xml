@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3683eebf-e141-4dc3-9bd1-4f2e2c263864" name="Changes" comment="day 19">
+    <list default="true" id="3683eebf-e141-4dc3-9bd1-4f2e2c263864" name="Changes" comment="day 20">
+      <change afterPath="$PROJECT_DIR$/src/com/kunaaal/LinkedList/RotateList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -269,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672322750445</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="day 20">
+      <created>1672660737830</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1672660737830</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -309,7 +317,8 @@
     <MESSAGE value="day 17" />
     <MESSAGE value="day 18" />
     <MESSAGE value="day 19" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 19" />
+    <MESSAGE value="day 20" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 20" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
